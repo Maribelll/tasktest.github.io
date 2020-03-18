@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans&display=swap" >
   <title>Form</title> 
  </head>
  <body>
@@ -33,6 +33,7 @@
                      <td>Nationality</td>
                      <td>E_mail</td>
                     </tr>
+			   <tr>
                          <td><input type="text" name="nation" style="width: 234.5px; margin-bottom: 16.3px;">
                           <span class="error-message nation-err"></span></td>
                         <td><input class="err_input" type="text" name="mail" style="width: 234.5px; margin-bottom: 16.3px;">
@@ -44,7 +45,7 @@
                      </tr>
                       <tr>
                         <td> <select name="date" style="width: 56px; margin-right: 9.8px; margin-bottom: 17.4px;">
-                            <option value="0"></option>
+                            <option value="0"> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -79,7 +80,7 @@
                             </select>
                       
                        <select name="mounth" style="width: 91px; margin-right: 9.8px;  margin-bottom: 17.4px;">
-                        <option value="0"></option>
+                        <option value="0"> </option>
                         <option value="1">January</option>
                         <option value="2">February</option>
                         <option value="3">March</option>
@@ -95,7 +96,7 @@
                         </select>
                       
                       <select name="year" style="width: 67.67px; margin-left: 2px;  margin-bottom: 17.4px;">
-                       <option value="0"></option>
+                       <option value="0"> </option>
                        <option value="1">1980</option>
                        <option value="2">1981</option>
                        <option value="3">1982</option>
@@ -112,10 +113,9 @@
                      <span class="error-message date-err"></span></td>
                         <td><input style=" margin-bottom: 17.4px;" type="radio" id="r1" value="1" name="gen" />
                           <label for="r1">Male</label>
-                          <input type="radio" value="2" id="r1" name="gen" />
-                          <label for="r1">Female</label>
+                          <input type="radio" value="2" id="r2" name="gen" />
+                          <label for="r2">Female</label>
                           <span class="error-message gen-err"></span>
-                      </tr>
                     </tr>
                       <tr>
                         <td>Password</td>
@@ -132,15 +132,10 @@
                        <td><p id="footer">Have an account <a href="">Login</a></p></td>
                         <td><a href="submit.html"></a><input  class="button" type="submit" value="Complete Signup"></td>
                        </tr>
-
                     </tbody>
                   </table>
-
-            </div>
-           
-       
-     </div>
- 
+            </div> 
+     </div> 
     </form>
     <script src="js/main.js"></script> 
  </body>
