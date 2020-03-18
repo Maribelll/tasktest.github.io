@@ -195,12 +195,3 @@ function validName1(fwe) {
   
   document.forms.form1.addEventListener('submit', validAll, false);
 
-
-  $.ajax({
-    method: "POST",
-    url: "server-ok.json",
-    data: { name: "John", location: "Boston" }
-    })
-  .done(function( msg ) {
-    alert( "Data Saved: " + msg );
-  });
